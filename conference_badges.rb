@@ -15,5 +15,5 @@ def assign_rooms(guest_list)
 end
 
 def printer
-  
+  puts "hi"
 end
