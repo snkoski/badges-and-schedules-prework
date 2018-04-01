@@ -19,4 +19,9 @@ def printer(guest_list)
   badges.each do |x|
     puts x
   end
+  
+  rooms = assign_rooms(guest_list)
+  rooms.each do |i|
+    puts i
+  end
 end
