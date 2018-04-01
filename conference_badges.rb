@@ -17,6 +17,6 @@ end
 def printer(guest_list)
   badges = batch_badge_creator(guest_list)
   badges.each do |x|
-    puts 
+    puts x
   end
 end
