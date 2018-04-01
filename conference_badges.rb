@@ -9,7 +9,7 @@ end
 
 def assign_rooms(guest_list)
   test_hash = Hash.new
-  test_hash = guest_list.each_with_index{|name, index| test_hash[name] = index }
+  guest_list.each_with_index{|name, index| test_hash[name] = index }
   
   
   room_assignment = test_hash.collect{|name, index| "Hello, #{name}! You'll be assigned to room #{index}!"}
