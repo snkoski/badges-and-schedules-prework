@@ -16,5 +16,7 @@ end
 
 def (guest_list)
   badges = batch_badge_creator(guest_list)
-  
+  badges.each do |x|
+    puts 
+  end
 end
