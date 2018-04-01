@@ -15,5 +15,6 @@ def assign_rooms(guest_list)
 end
 
 def (guest_list)
-  batch_badge_creator(guest_list).collect{|x| puts x}
+  badges = batch_badge_creator(guest_list)
+  
 end
