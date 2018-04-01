@@ -14,7 +14,7 @@ def assign_rooms(guest_list)
   room_assignment = test_hash.collect{|name, index| "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
 end
 
-def (guest_list)
+def printer(guest_list)
   badges = batch_badge_creator(guest_list)
   badges.each do |x|
     puts 
