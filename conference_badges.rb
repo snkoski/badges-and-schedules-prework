@@ -8,7 +8,7 @@ def batch_badge_creator(guest_list)
 end
 
 def assign_rooms(guest_list)
-  
+  test_hash = 
   
   
   room_assignment = guest_list.each_with_index{|name, index| "Hello, #{name}! You'll be assigned to room #{index}!"}
